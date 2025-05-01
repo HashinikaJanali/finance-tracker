@@ -1,6 +1,6 @@
 # CashFlow - Personal Finance Tracker App 💰📱
 
-CashFlow is a Kotlin-based Android application developed to help users manage their daily expenses, income, and monthly budgets. Built for the IT2010 – Mobile Application Development Lab Exam 03 (SLIIT 2025), it features real-time transaction tracking, category-wise analytics, and budget alerts.
+CashFlow is a Kotlin-based Android application developed to help users manage their daily expenses, income, and monthly budgets. it features real-time transaction tracking, category-wise analytics, and budget alerts.
 
 ---
 
