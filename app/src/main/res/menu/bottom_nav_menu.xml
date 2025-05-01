@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_transactions"
+        android:icon="@drawable/baseline_manage_history_24"
+        android:title="Transactions" />
+
+    <item
+        android:id="@+id/nav_analytics"
+        android:icon="@drawable/baseline_2k_24"
+        android:title="Analytics" />
+
+    <item
+        android:id="@+id/nav_budget"
+        android:icon="@drawable/baseline_360_24"
+        android:title="Budget" />
+
+
+</menu>

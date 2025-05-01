@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+
+    <ImageView
+        android:id="@+id/onboardingImage"
+        android:layout_width="387dp"
+        android:layout_height="441dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="0dp"
+        android:contentDescription="Onboarding Illustration"
+        android:src="@drawable/onbord3" />
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onboardingImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="58dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/onboarding_illustration"
+            android:scaleType="fitXY"
+            android:src="@drawable/wavenew" />
+
+        <ImageView
+            android:layout_width="279dp"
+            android:layout_height="315dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="318dp"
+            android:background="@drawable/onboard3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="402dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-155dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/onboardingTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Track your expenses"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/onboardingDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="Record your daily spending and monitor your budget automatically."
+                android:textColor="@color/gray"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/finishBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:paddingHorizontal="48dp"
+                android:text="Get Started"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>

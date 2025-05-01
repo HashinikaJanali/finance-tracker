@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monthly Budget Planner"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2D3748"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Budget Input Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Your Budget"
+                android:textSize="18sp"
+                android:textColor="#2D3748"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/editTextBudget"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Enter amount in Rs"
+                android:inputType="numberDecimal"
+                android:background="@drawable/edittext_background"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/saveBudgetButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="SAVE BUDGET"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:background="@drawable/button_background"
+                android:textColor="#FFFFFF"
+                android:elevation="0dp" />
+        </LinearLayout>
+
+        <!-- Budget Overview Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Budget Overview"
+                android:textSize="18sp"
+                android:textColor="#2D3748"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Budget Info Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/budgetnew"
+                    android:layout_marginEnd="12dp"/>
+
+                <TextView
+                    android:id="@+id/currentBudgetTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 0.00"
+                    android:textSize="16sp"
+                    android:textColor="#2D3748"/>
+            </LinearLayout>
+
+            <!-- Spending Info Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/spending"
+                    android:layout_marginEnd="12dp"/>
+
+                <TextView
+                    android:id="@+id/currentSpendingTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 0.00 spent this month"
+                    android:textSize="16sp"
+                    android:textColor="#2D3748"/>
+            </LinearLayout>
+
+            <!-- Progress Section -->
+            <TextView
+                android:id="@+id/budgetProgressTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0% of budget used"
+                android:textSize="14sp"
+                android:textColor="#64748B"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <ProgressBar
+                android:id="@+id/budgetProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_bar_background"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Corrected percentage indicators layout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0%"
+                    android:textSize="12sp"
+                    android:textColor="#64748B"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100%"
+                    android:textSize="12sp"
+                    android:textColor="#64748B"
+                    android:layout_gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Budget Tips Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Budgeting Tips"
+            android:textSize="18sp"
+            android:textColor="#2D3748"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Track your daily expenses\n• Set realistic goals\n• Review weekly"
+            android:textSize="14sp"
+            android:textColor="#64748B"
+            android:lineSpacingExtra="4dp"/>
+    </LinearLayout>
+</ScrollView>

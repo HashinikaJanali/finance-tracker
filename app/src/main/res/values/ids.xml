@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="titleLabel" type="id"/>
+    <item name="titleEditText" type="id"/>
+    <item name="amountLabel" type="id"/>
+    <item name="amountEditText" type="id"/>
+    <item name="categoryLabel" type="id"/>
+    <item name="categorySpinner" type="id"/>
+    <item name="dateLabel" type="id"/>
+    <item name="dateEditText" type="id"/>
+    <item name="saveTransactionButton" type="id"/>
+</resources>

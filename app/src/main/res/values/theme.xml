@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.FinanceTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary branding color. -->
+        <item name="colorPrimary">@color/primaryBlue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary/accent color -->
+        <item name="colorSecondary">@color/accentBlueLight</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background color -->
+        <item name="android:colorBackground">@color/backgroundLight</item>
+        <item name="colorSurface">@color/backgroundLight</item>
+        <item name="colorOnBackground">@color/black</item>
+
+        <!-- Error and warning colors -->
+        <item name="colorError">@color/errorRed</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Others -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryBlue</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/backgroundLight</item>
+    </style>
+
+</resources>

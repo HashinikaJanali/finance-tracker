@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Color -->
+    <solid android:color="#F3E5F5" /> <!-- White background -->
+
+    <!-- Rounded Corners -->
+    <corners android:radius="12dp" />  <!-- Rounded corners with a 12dp radius -->
+
+    <!-- Border -->
+    <stroke android:color="#E0E0E0" android:width="1dp" />  <!-- Light grey border -->
+
+    <!-- Shadow or Elevation -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+</shape>

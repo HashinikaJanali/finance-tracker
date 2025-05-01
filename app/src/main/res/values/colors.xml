@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary App Colors -->
+    <color name="primaryBlue">#1E5EFF</color>
+    <color name="accentBlueLight">#57B3FE</color>
+
+    <!-- Text Colors -->
+    <color name="gray">#9E9E9E</color>
+    <color name="lightGray">#E0E0E0</color>
+
+    <!-- Backgrounds -->
+    <color name="backgroundLight">#F7F9FC</color>
+
+    <!-- Error / Warning Colors -->
+    <color name="errorRed">#FF5252</color>
+    <color name="warningOrange">#FFA726</color>
+
+    <!-- Category Colors -->
+    <color name="foodCategory">#FFB74D</color>
+    <color name="transportCategory">#4FC3F7</color>
+    <color name="entertainmentCategory">#BA68C8</color>
+    <color name="billsCategory">#81C784</color>
+
+    <color name="gradientStart">#4A90E2</color>
+    <color name="gradientEnd">#1453A1</color>
+    <color name="accentYellow">#FFB400</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="green"> </color>
+    <color name="red"> </color>
+    <color name="bgLight"> </color>
+    <color name="light_purple">#E0BBE4</color>
+
+        <color name="lightBackground">#F0F8FF</color> <color name="primaryText">#212121</color> <color name="secondaryText">#757575</color> <color name="shoppingColor">#64B5F6</color> <color name="homeColor">#4CAF50</color>
+        <color name="foodDrinkColor">#FF9800</color>
+        <color name="tripsColor">#9C27B0</color>
+        <color name="transportColor">#F44336</color>
+
+
+    <color name="my_fab_color">#008577</color>
+</resources>
