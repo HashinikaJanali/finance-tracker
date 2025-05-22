@@ -33,10 +33,5 @@ CashFlow is a Kotlin-based Android application developed to help users manage th
 3. Run the app on an emulator or physical device (API 26+)
 4. Add transactions and explore all features
 
----
-
-## 📃 License
-
-This project is developed as part of coursework at SLIIT – BSc (Hons) in Information Technology – 2nd Year.
 
 
